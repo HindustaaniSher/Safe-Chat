@@ -19,8 +19,8 @@ Users register invite-only, generate keys in the browser, and messages are encry
    source venv/bin/activate
    python3 app.py
    ```
-   # visit locally on `http://127.0.0.1:5000`
-   # admin username and pass are `roxter` and `roxter101` respectively
+   ### visit locally on `http://127.0.0.1:5000`
+   ### admin username and pass are `roxter` and `roxter101` respectively
 Now, you can register users and can have two or more active user panels by login in as different users on various ecognito or private tabs.
 
 ## Note
