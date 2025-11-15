@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Safe Chat | Register</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>Create Your Safe Chat Account</h2>
+    <form id="regForm" onsubmit="event.preventDefault(); doRegister(
+  document.getElementById('user_id').value,
+  document.getElementById('password').value,
+  document.getElementById('invite_code').value
+)">
+  <input id="user_id" name="user_id" required />
+  <input id="password" name="password" type="password" required />
+  <input id="invite_code" name="invite_code" required />
+  <button type="submit">Register</button>
+</form>
+<script src="/static/register.js"></script>
+
+    <p>Already have an account? <a href="/">Login here</a></p>
+  </div>
+</body>
+</html>

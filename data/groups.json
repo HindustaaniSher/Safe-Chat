@@ -1,0 +1,8 @@
+{
+  "group1": {
+    "name": "CyberSec Crew",
+    "members": ["alice", "bob", "charlie"],
+    "created_by": "admin",
+    "messages": []
+  }
+}

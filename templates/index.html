@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Safe Chat | Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h2>Login to Safe Chat</h2>
+    <form action="/login" method="POST">
+      <label>User ID</label>
+      <input type="text" name="user_id" required>
+
+      <label>Password</label>
+      <input type="password" name="password" required>
+
+      <button type="submit">Login</button>
+    </form>
+
+    <p>Don’t have an account? <a href="/register">Register here</a></p>
+  </div>
+</body>
+</html>
+
