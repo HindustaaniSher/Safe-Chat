@@ -1,4 +1,4 @@
-# Safe Chat — End-to-End Encrypted Chat App (Prototype)
+# Safe Chat (Prototype)
 
 Simple Flask + Socket.IO secure chat prototype with client-side end-to-end encryption (E2EE).  
 Users register invite-only, generate keys in the browser, and messages are encrypted client-side.
